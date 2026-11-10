@@ -45,3 +45,4 @@ with open(args.output, 'w') as out_file:
     out_file.write(str(result) + '\n')
 
 print(f"Done! Saved to {args.output}")
+#python3 comp.py -i rosalind_cc.txt result.txt
