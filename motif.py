@@ -33,3 +33,4 @@ with open(args.output, 'w') as out_file:
     out_file.write(result_string + '\n')
 
 print(f"Готово! Результаты поиска сохранены в: {args.output}")
+#python3 motif.py -i rosalind_subs.txt result.txt
