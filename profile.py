@@ -96,3 +96,4 @@ with open(args.output, 'w') as out_file:
     out_file.write(str_T + '\n')
 
 print(f"Done! Saved to {args.output}")
+#python3 profile.py -i rosalind_cons1.txt result.txt
