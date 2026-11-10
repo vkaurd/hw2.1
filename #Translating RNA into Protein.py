@@ -38,3 +38,4 @@ with open(args.output, 'w') as out_file:
     out_file.write(protein_string + '\n')
 
 print(f"Готово! Результат сохранен в файл: {args.output}")
+#python3 "#Translating RNA into Protein.py" -i rosalind_prot1.txt result.txt
